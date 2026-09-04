@@ -17,7 +17,7 @@ An evaluation of some policies under some proposed AI frameworks.
 
 ### Cyber GRC & Risk Assessments
 [Third-Party Cyber Risk Evaluation Template](./risk-assessments/01-third-party-vendor-risk-template.md)  
-A standardized risk evaluation matrix mapping vendor architecture against NIST CSF controls.
+A standardized risk evaluation matrix mapping vendor architecture against National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) controls.
 
 ### Technical Mappings
 [GDPR vs. CCPA Technical Data Architecture Mapping](./frameworks-and-guides/gdpr-vs-ccpa-technical-mapping.md)  
