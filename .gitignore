@@ -1,0 +1,22 @@
+# Operating System Junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Text Editor & IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local Working Drafts
+drafts/
+*.tmp
+*.log
+
+# Notes Apps
+.obsidian/
