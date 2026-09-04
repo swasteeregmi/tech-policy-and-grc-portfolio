@@ -9,7 +9,7 @@ B.S. & M.S. (expected) in Computer Science (Cybersecurity Concentration), Minor 
 ## Overview
 This portfolio contains policy analyses, risk management frameworks, and regulatory briefs written at the intersection of computer science, data privacy law, and cybersecurity governance. Rather than software engineering codebases, this repository demonstrates technical translation, regulatory mapping, and risk evaluation.
 
-## Portfolio Directory
+## Portfolio Directory (in-progress)
 
 ### Policy Briefs & Regulatory Analyses
 [Policy Brief: Technical Feasibility and Regulatory Gaps in AI Policies](./policy-briefs/01-ai-policy-brief.md)  
