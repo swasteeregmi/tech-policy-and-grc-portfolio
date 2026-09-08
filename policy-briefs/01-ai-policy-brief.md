@@ -45,7 +45,21 @@ The rapid integration of Generative Artificial Intelligence and AI-powered codin
 |**Data Privacy**| Transmission of consumer PII in prompt context | CCPA/HIPAA non-compliance | Enforce zero data retention (ZDR) agreements |
 |**Secrets Management**| Accidental inclusion of hardcoded API tokens in IDE window | Unauthorized system access & credential exposure | Mandate pre-committ private info scanning hooks |
 |**Code Integrity**| Unvetted AI functions get integrated into main code branches | Exploitable software vulnerabilities in production | Enforce mandatory peer review and automated SAST/DAST pipeline scanning | 
+
+**Definition:**
+
+**Static Application Security Testing (SAST)** scans non-compiled code or binaries for security flaws. It catches errors before the code is merged and;
+
+**Dynamic Application Security Testing (DAST)** sends simulated external attacks against a running, deployed application, which is done later in the pipeline process.
+
 ---
 
 ## 4. Policy Recommendations & Control Implementation
 
+**1. Mandate tenant isolation:** Prohibit the use of personal or non-enterprise AI assistant accounts for company codebases. Require all teams to use corporate accounts with contractually guaranteed zero-data-retention (ZDR) and zero-training clauses.
+
+**2. Implement client-side data masking:** Deploy IDE-level pre-processing extensions that are able to strip hardcoded secrets, environment variables, and intenal IP addresses prior to API payload dispatch.
+
+**3. Update Continuous Integration (CI) security gates:** Integrate tools like SAST directly into Pull Request (PR) approval pipeline to flag any license contamination and security vulnerabilities before code merge.
+
+---
