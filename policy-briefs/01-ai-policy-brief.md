@@ -15,10 +15,26 @@ The rapid integration of Generative Artificial Intelligence and AI-powered codin
 
 ## 2. Technical Threat Vector Analysis
 
+### A. Automated injection of insecure code patterns
 
+**Mechanism**: Large Language Models (LLMs) trained on public code repositories inevitably replicate insecure coding patterns, deprecated functions, and vulnerable dependencies. 
+**Associated Risks**: Developers accepting auto-suggested code are subjecting themselves and their work to OWASP Top 10 vulnerabilities like hardcoded API keys, unvalidated input handling (SQL injection), and weak cryptographic primitives directly into primary code branches.
+
+### B. Intellectual Property & License Contamination
+
+**Mechanism**: LLMs may output verbatim code snippets from public code protected by restrictive open-source licenses like GPL-3.0 and AGPL.
+**Associated Risks**: Merging such copyleft-licensed code into commercial, closed-source software products creates legal exposure to copyleft contamination, potential copyright infringement claims, and license compliance issues.
+
+### C. Data Transmission & Retraining Leaks
+
+**Mechanism**: AI assistants are able to serialize local codebase context, including API endpoints, variable names, internal database schemas, and surrounding code blocks. They then transmit this data to third-party vendor cloud endpoints through REST APIs.
+**Associated Risks**: Standard consumer or API tiers usually reserve the right to log prompt payloads to retrain AI models. This risks exposing business logic, proprietary algorithms, and internal system architectures to third-party vendors.
 ---
 
 ## 3. Threat & Mitigation Matrix
+
+| Domain | Technical Vulnerability | Legal / Compliance Impact | Mandated Policy Control |
+| :--- | :--- | :--- | :--- |
 
 ---
 
