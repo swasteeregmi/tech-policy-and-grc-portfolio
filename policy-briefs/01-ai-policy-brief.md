@@ -43,6 +43,8 @@ The rapid integration of Generative Artificial Intelligence and AI-powered codin
 | Domain | Technical Vulnerability | Legal / Compliance Impact | Mandated Policy Control |
 | :--- | :--- | :--- | :--- |
 |**Data Privacy**| Transmission of consumer PII in prompt context | CCPA/HIPAA non-compliance | Enforce zero data retention (ZDR) agreements |
+|**Secrets Management**| Accidental inclusion of hardcoded API tokens in IDE window | Unauthorized system access & credential exposure | Mandate pre-committ private info scanning hooks |
+|**Code Integrity**| Unvetted AI functions get integrated into main code branches | Exploitable software vulnerabilities in production | Enforce mandatory peer review and automated SAST/DAST pipeline scanning | 
 ---
 
 ## 4. Policy Recommendations & Control Implementation
