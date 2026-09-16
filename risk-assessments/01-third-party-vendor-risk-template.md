@@ -1,4 +1,4 @@
-# Third Party Risk Evaluation Template
+# Third-Party Risk Evaluation Template
 
 **Document control:** Version 1.0 | **Author:** Swastee Regmi
 **Evaluation scope:** Cloud SaaS & Infrastructure vendors
@@ -28,3 +28,7 @@ $$ \text{Risk Score} = \text{Likelihood(1--4)} \times \text{Impact(1--4)} $$
 ---
 
 ## 3. Control Assessment & Governance Matrix
+---
+| Domain | Control ID | Evaluation Criteria | Vendor Compliance Status | Risk Score | Mitigation |
+| :--- | :--- | :--- | :-- | :-- |
+
