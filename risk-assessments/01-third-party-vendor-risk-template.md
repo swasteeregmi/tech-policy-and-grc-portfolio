@@ -37,7 +37,7 @@ $$ \text{Risk Score} = \text{Likelihood(1--4)} \times \text{Impact(1--4)} $$
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Identity & Access Management** | PR.AA-01 | Enforce SAML 2.0/ OpenID Connect SSO integration and mandatory MFA for all administrative roles | **Pass** | Low (2) | Require hardware-backed FIDO2 MFA keys for tenant admin accounts |
 | **Data protection at rest** | PR.DS-01 | AES-256 encryption across all storage tiers and database instances; support for customer-managed keys (KMS) | **Pass** | Low (1) | Ensure key rotation schedules are configured annually via AWS KMS |
-| **Data Protection in Transit** | PR.DS-02 | Mandatory TLS 1.3 encryption across all public APIs and client connections | **Partial** | Medium (6) | Contractually require vendor to deprecate legacy TLS endpoints on internal worker nodes within 60 days |
+| **Data Protection in Transit** | PR.DS-02 | Mandatory TLS 1.3 encryption across all public APIs and client connections; deprecation of TLS 1.0/1.1 | **Partial** | Medium (6) | Contractually require vendor to deprecate legacy TLS endpoints on internal worker nodes within 60 days |
 | **Incident Response** | IR.RA-01 | Contractually binding breach notification window within 72 hours of initial discovery | **Fail** | High (9) | Amend Master Services Agreement (MSA) to replace vague "reasonable time" language with explicit 72-hour notification rule | 
 | **Business Continuity & Disaster Relief** | PR.IR-01 | Verified Recovery Time Objective (RTO) $< 4$ hours and Recovery Point Objective (RPO) $< 1$ hour | **Pass** | Low (2) | Request annual SOC 2 Type II report to verify third-party disaster recovery testing execution |
 
