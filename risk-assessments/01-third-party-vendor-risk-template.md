@@ -1,7 +1,11 @@
 # Third-Party Risk Evaluation Template
 
-**Document control:** Version 1.0 | **Author:** Swastee Regmi
+**Document control:** Version 1.0 
+
+**Author:** Swastee Regmi
+
 **Evaluation scope:** Cloud SaaS & Infrastructure vendors
+
 **Target Standards:** NIST CSF 2.0, SOC 2 Trust Services Criteria
 
 ---
@@ -43,6 +47,8 @@ $$ \text{Risk Score} = \text{Likelihood(1--4)} \times \text{Impact(1--4)} $$
 ## 4. Final Recommendation 
 **Overall Assessment Rating:** Conditional Approval
 **Mandated Action Items:** Onboarding approved pending execution of the updated Data Processing Addendum (DPA) incorporating the mandatory 72-hour breach notification requirement and TLS remediation timeline. 
+
+---
 
 **Keywords:**
 - Amazon Web Services Key Management Service (AWS KMS)
