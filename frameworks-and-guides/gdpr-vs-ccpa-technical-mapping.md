@@ -11,6 +11,7 @@
 ## 1. Overview and Architectural Challenge
 
 Translating high-level legal frameworks, such as the European Union's **General Data Protection Regulation (GDPR)** and the **California Consumer Privacy Act (CCPA/CPRA)**, into system architecture requires shifting from abstract compliance statements to explicit database schema design, retention rules, and security boundaries. This is a quick reference guide that aims to bridge some legal requirements under the EU and US laws with some retention and deletion suggestions.
+
 --- 
 
 ## 2. Regulatory Technical Mapping Matrix
@@ -19,7 +20,7 @@ Translating high-level legal frameworks, such as the European Union's **General 
 | :--- | :--- | :--- | :--- |
 | **Right to Erasure/Deletion** | Article 17 ("Right to be Forgotten") | Cal. Civ. Code § 1798.105 | Implement cascading delete logic across primary SQl/No SQL stores; issue asynchronous worker jobs to purge user logs from analytical pipelines |
 | **Right to Opt-out/Object** | Article 21 ("Right to Object") | Cal. Civ. Code § 1798.120 | Maintain an indexed 'opt_out' boolean flag in user preference; filter outboud telemetry before sending it to third-party endpoints |
-| **Security of Processing ** | Article 32 (Security Controls) | Cal. Civ. Code § 1798.100 (e) | AES-256 level encryption for sensitive columns (e.g., SSN, Financial Information); TLS transport security; Key management by KMS |
+| **Security of Processing** | Article 32 (Security Controls) | Cal. Civ. Code § 1798.100 (e) | AES-256 level encryption for sensitive columns (e.g., SSN, Financial Information); TLS transport security; Key management by KMS |
 | **Data Minimization & Storage Limitation** | Article 5(1)(c) & (e) | Cal. Civ. Code § 1798.100(a)(3) | Automate object lifecycle expiration policies on cloud storage (e.g., AWS lifecycle rules) to purge logs after 90 days |
 
 ---
