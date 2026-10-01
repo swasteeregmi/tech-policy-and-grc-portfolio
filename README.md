@@ -2,7 +2,7 @@
 
 Swastee Regmi  
 B.S. & M.S. (expected) in Computer Science (Cybersecurity Concentration), Minor in Mathematics
-[https://www.linkedin.com/in/swastee-regmi-062001294/]| [swastee.regmi@gmail.com]
+[https://www.linkedin.com/in/swastee-regmi-062001294/]
 
 ---
 
