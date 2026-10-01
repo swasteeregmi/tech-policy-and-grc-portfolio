@@ -2,7 +2,7 @@
 
 **Author:** Swastee Regmi
 
-**Date:** 09/30/2026
+**Date:** 10/01/2026
 
 **Target Audience:** Chief Information Science Officers, Engineering Leadership, Policy Analysts
 
@@ -13,6 +13,7 @@
 ## 1. Executive Summary
 
 The GDPR Framework's fifth article (Article 5(1)) strictly requires lawfulness, fairness, and transparency. Google's recent €403m (£345m) fine from the Republic of Ireland's Data Protection Commission (DPC) mostly revolves around the breach of Article 5(1) of the GDPR. The penalty was one of the largest of its kind imposed by the Irish authority, followed by an inquiry that was launched six years ago. This inquiry was born out of several complaints from European consumer rights organizations. The inquiry concerned Google's processing of location data in three specific categories: **Web & App activity**, **Location History**, and **Location Accuracy**. 
+Even though compliant methods have been introduced - as discussed below in 'Evaluation of Existing Policy' - compliance fixes do not erase historical breaches, so Google still has to pay its GDPR violation fines.
 
 ---
 
@@ -36,4 +37,37 @@ The Issue: Google failed to successfully demonstrate active compliance with GDPR
 
 ---
 
+## 3. Evaluation of Existing Policy
 
+| **Policy Focus Area** | **Legacy Policy / Architecture (2018-2020 Violation Era)** | **Modern Updated Policy / Architecture** |
+| :--- | :--- | :--- |
+| **Consent & Bundling** | Opting into general account features like Web & App Activity automatically funneled background location data into ad-targeting algorithms | Separated toggle switches; opting out of personalized tracking does not disable core app utilities |
+| **Storage & Retention** | Google retained permanent cloud logs of user coordinates indefinitely unless manually cleared through buried settings | Auto-delete defaults; **Google Maps Timeline** records are now localized directly onto the individual device by default and automatically purged after 3 months | 
+| **Precision Masking** | System captured and held precise, coordinate-based device locations | Web & App activities rely primarily on an estimated, general regional area rather than exact physical footprints | 
+
+---
+
+## 4. Actionable Recommendations
+
+* **Primary Directive:** Execute the option to comply with the DPC's six-month deadline, regardless of whether a legal appeal against the fine is filed.
+
+* **Consent Mechanisms:** Ensure that features like **Location History vs Web & App Acitivity** require explicit, individual consent rather than joint activation.
+
+* **Proactive Regulatory Transparency:** Establish a dedicated compliance liaison panel to interface directly with the European Data Protection Board (EDPB) before rolling out global interface modifications. 
+
+---
+
+## 5. Implementation Blueprint
+
+**Phased Rollout:** Outline an immediate 90-day technical sprint to update Android and Google Account privacy dashboards.
+
+**System Auditing:** Mandate strict data protection impact assessments (DPIAs) for any features processing user telemetry or localized data. 
+
+---
+
+**References:**
+
+* GDPR Document
+* Google fined €403m by Irish data watchdog over GDPR Violations - BBC [https://www.bbc.com/news/articles/ck1e52v16ngxo]
+
+---
