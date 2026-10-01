@@ -15,6 +15,9 @@ This portfolio contains policy analyses, risk management frameworks, and regulat
 [Policy Brief: Technical Feasibility and Regulatory Gaps in AI Policies](./policy-briefs/01-ai-policy-brief.md)  
 An evaluation of some policies under some proposed AI frameworks.
 
+[Policy Brief: Google's GDPR Violation](./policy-briefs/02-Google's_GDPR_Violation.md)
+An evaluation of Google's GDPR Violation, breach of articles, recommended actions, and evaluation of policies.
+
 ### Cyber GRC & Risk Assessments
 [Third-Party Cyber Risk Evaluation Template](./risk-assessments/01-third-party-vendor-risk-template.md)  
 A standardized risk evaluation matrix mapping vendor architecture against National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) controls.
