@@ -69,5 +69,6 @@ The Issue: Google failed to successfully demonstrate active compliance with GDPR
 
 * GDPR Document
 * Google fined €403m by Irish data watchdog over GDPR Violations - BBC [https://www.bbc.com/news/articles/ck1e52v16ngxo]
+* Google updates terms of service in plain language after E.U. scrutiny - PBS News [https://www.pbs.org/newshour/economy/google-updates-terms-in-plain-language-after-e-u-scrutiny] 
 
 ---
