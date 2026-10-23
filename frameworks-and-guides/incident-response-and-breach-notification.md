@@ -1,7 +1,9 @@
 # INCIDENT RESPONSE AND BREACH NOTIFICATION POLICY
 
-**Effective Date:** 10/21/2026
+**Effective Date:** 10/22/2026
+
 **Version:** 1.0
+
 **Applicability:** All Partners, Employees, Contractors, and Third-Party Vendors
 
 ---
@@ -15,7 +17,7 @@ The objective of this policy is to establish a structured, legally compliant fra
 
 ## 2. Scope & Definitions
 
-This policy applies to all information systems, cloud repositories, network infrastructure, and endpoints owned, managed, or utilized by the firm. It covers all data handled by the firm, with hightened protections for:
+This policy applies to all information systems, cloud repositories, network infrastructure, and endpoints owned, managed, or utilized by the firm. It covers all data handled by the firm, with heightened protections for:
 
 * **Attorney-Client Privileged Material:** Active case strategy, deposition notes, and corporate transaction documents.
 * **Personally Identifiable Information (PII):** Social Security Numbers (SSNs), financial account data, and identity documents.
@@ -44,4 +46,16 @@ The firm operates a cross-functional CIRT. This team is authorized to take all n
 **MSSP: Managed Security Service Provider**
 
 ---
+## 4. Incident Classification Matrix
+
+| Severity | Technical Criteria | Legal / Client Impact | Examples |
+| :--- | :--- | :--- | :--- |
+| **Low** | Isolated system event; no evidence of data loss or unauthorized lateral movement | No regulatory or contractual impact; no client data expoesd | Single user phishing click blocked by endpoint protection; localized adware |
+| **Medium** | Disruption to non-critical operations; malware on a non-privileged corporate endpoint | Risk of data exposure is possible but unconfirmed; requires active monitoring | Compromise of an administrative assistant's email account with no access to case files |
+| **High** | Critical infrastructure compromised; active unauthorized access to data environments | High probability of unauthorized access to sensitive client data or PII | Ransomware spreading through secondary document management servers; successful brute-force on Partner account |
+| **Critical** | Complete system lockout; widespread operational disruption; confirmed data exfiltration | Confirmed exposure of attorney-client privileged data, financial accounts, or PII | Exfiltration of litigation strategy databases or active corporate transaction folders |
+
+---
+
+## 5. Incident Response Phases
 
