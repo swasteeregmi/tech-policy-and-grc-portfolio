@@ -18,6 +18,7 @@ An evaluation of some policies under some proposed AI frameworks.
 [Policy Brief: Google's GDPR Violation](./policy-briefs/02-Google's_GDPR_Violation.md)
 An evaluation of Google's GDPR Violation, breach of articles, recommended actions, and evaluation of policies.
 
+
 ### Cyber GRC & Risk Assessments
 [Third-Party Cyber Risk Evaluation Template](./risk-assessments/01-third-party-vendor-risk-template.md)  
 A standardized risk evaluation matrix mapping vendor architecture against National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) controls.
@@ -25,5 +26,8 @@ A standardized risk evaluation matrix mapping vendor architecture against Nation
 ### Technical Mappings
 [GDPR vs. CCPA Technical Data Architecture Mapping](./frameworks-and-guides/gdpr-vs-ccpa-technical-mapping.md)  
 Quick-reference guide mapping database retention and deletion requirements under EU and US law.  
+
+[Incident Response and Breach Notification Policy](./frameworks-and-guides/incident-response-and-breach-notification.md)
+A detailed layout of incident response and breach notification for a legal firm.
 
 
