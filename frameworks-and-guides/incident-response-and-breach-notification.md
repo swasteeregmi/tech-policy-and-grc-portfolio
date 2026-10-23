@@ -57,5 +57,52 @@ The firm operates a cross-functional CIRT. This team is authorized to take all n
 
 ---
 
-## 5. Incident Response Phases
+## 5. Incident Response Phases (NIST SP 800-61 Rev. 3)
+
+### Phase 1: Preparation
+* Continuous endpoint monitoring and centralized log aggregation with a 1-year minimum retention.
+* Annual incident response exercises for all Cyber Incident Response Team (CIRT) members.
+* Mandatory use of multi-factor authentication (MFA) and data encryption at rest and in transit for all firm devices.
+
+### Phase 2: Detection & Analysis
+* All employees must report suspected security anomalies immediately to the IT Helpdesk.
+* The Forensic Analyst validates alerts to rule out false positives.
+* Upon validation of a Medium, High, or Critical threat, the Incident Commander formally activates the CIRT.
+
+### Phase 3: Containment, Eradication, & Recovery 
+* **Short-Term Containment:** Isolate affected endpoints from the network; disable compromised user credentials; revoke API keys.
+* **Eradication:** Clean systems using trusted gold images; patch underlying vulnerabilities that allowed entry; reset all user passwords.
+* **Recovery:** Restore validated, clean data from offline backups; continuously monitor infrastructure for indicators of compromise (IoCs).
+
+### Phase 4: Post-Incident Activity
+* Within 14 business days of a High or Critical incident, the CIRT must conduct a 'Lessons Learned" review.
+* The resulting Post-Incident Report will dictate modifications to security controls, budgets, or policy revisions.
+
+---
+
+### 6. Data Breach Notification Protocol
+
+The determination of whether an incident constitutes a legally reportable Data Breach is the sole responsibility of the **General Counsel**.
+
+### 6.1 Regulatory Verification Timelines
+1. **State Attorney General & Consumer Notifications:** Dependent on state laws (e.g., under California's CCPA/CPRA or New York's SHIELD Act). Notifications must occur "without unreasonable delay", frequently capped between **30 to 45 days** from discovery.
+2. **HIPAA Breach Notification Rule:** If PHI is breached affecting 500 or more individuals, notification to HHS, affected individuals, and prominent media outlets must occur within **60 days** of discovery.
+3. **Ethical Duties (ABA Model Rule 1.4/1.6):** Immediate ethical obligation to inform current clients if a breach affects their matter or compromises their confidential information.
+
+### 6.2 Notification Sequence Flow
+1. **Internal Escalation:** CIRT identifies data exfiltration & escalates immediately to General Counsel.
+2. **Privilege Protection:** General Counsel retains an external digital forensics firm under a tripartite agreement to preserve attorney-client privilege over investigation findings.
+3. **Law Enforcement:** Report to the FBI Cyber Division or the Cybersecurity and Infrastructure Security Agency (CISA) if the incident involves state-sponsored actors, widespread ransomware, or financial fraud.
+4. **Client & Regulatory Notice:** Draft concise, transparent statements detailing:
+   - What happened and when
+   - What specific data fields were involved
+   - Measures taken to mitigate the impact
+   - Steps individuals can take to protect themselves
+
+  ---
+
+  ## 7. Enforcement & Compliance
+Failure to adhere to the reporting guidelines and operational requirements set forth in this policy may result in disciplinary action up to and including termination of employment, dissolution of partnership status, or referral to state bar disciplinary authorities. 
+  
+
 
